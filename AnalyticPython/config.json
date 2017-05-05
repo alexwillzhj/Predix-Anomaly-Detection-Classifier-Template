@@ -1,0 +1,10 @@
+{
+  "entry-method": "analytics.tsAnomalyDetection.ts_detection",
+  "conda-libs": [
+    "numpy",
+    "scikit-learn",
+    "scipy",
+    "pandas",
+    "psycopg2"
+   ]
+}

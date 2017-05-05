@@ -1,0 +1,25 @@
+{
+    "analyticName": "analytic_detection_test",
+    "analyticVersion": "v1",
+    "orchestrationStepId": "sid-10001",
+    "iterations": [
+        {
+            "inputMaps": [
+                {
+                    "valueSourceType": "DATA_CONNECTOR",
+                    "fullyQualifiedPortName": "data.time_series.feature",
+                    "fieldId": "inputOfDetection0",
+                    "queryCriteria": {"start": "1h-ago", "end": -1, "order": "desc", "limit": 2},
+                    "dataSourceId": "PredixTimeSeries"
+                }
+            ],
+            "outputMaps": [
+                {
+                    "fullyQualifiedPortName": "data.time_series.detect_res0",
+                    "fieldId": "outputOfDetection0",
+                    "dataSourceId": "PredixTimeSeries"
+                }
+            ]
+        }
+    ]
+}

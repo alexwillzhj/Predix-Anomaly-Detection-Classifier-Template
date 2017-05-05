@@ -1,0 +1,12 @@
+{
+  "trustedIssuerIds": [
+    "https://c254e971-715c-4406-945b-11922e5e6570.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token"
+  ],
+  "runtimeDependentServices": {
+    "predixTimeseriesZoneId": "3b31a620-f9c9-45dd-bf33-fd050dc11ca4"
+  },
+  "runtimeTrustedClientCredentials": {
+    "clientId": "ds_client1",
+    "clientSecret": "data"
+  }
+}
