@@ -34,4 +34,4 @@ To run this analytic locally, you will need to have the following:
 3. Create a config.json file in the top level of the project directory. Specify the entry method in the format of `<subdirectory>.<className>.<methodName>`, conda-libs, and non-conda-libs.
 4. Package all the analytic files and the config.json file into a ZIP file.
 
-For more information, email auther: Alex Zhang (alexwillzhj@gmail.com or alex.zhang@ge.com)
+For more information, email author: Alex Zhang (alexwillzhj@gmail.com or alex.zhang@ge.com)
