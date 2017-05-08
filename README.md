@@ -1,4 +1,4 @@
-#Predix-Anomaly-Detection-Classifier-Template
+##Predix-Anomaly-Detection-Classifier-Template
 
 A python-based sample analytic that detect abnormal events based on classification method, e.g., QDA classifier.
 
